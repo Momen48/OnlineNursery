@@ -1,0 +1,91 @@
+/*!
+ * Start Bootstrap - Shop Homepage HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.slide-image {
+    width: 100%;
+}
+
+.carousel-holder {
+    margin-bottom: 30px;
+}
+
+.carousel-control,
+.item {
+    border-radius: 4px;
+}
+
+.caption {
+    height: 130px;
+    overflow: hidden;
+}
+
+.caption h4 {
+    white-space: nowrap;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+
+/*--------------footer---------------*/
+.footer {
+  margin-top: 50px;
+  background: #000;
+  color: #fff;
+}
+.footer h1 {
+  font-size: 15px;
+  margin: 25px 0;
+}
+.footer p {
+  font-size: 12px;
+}
+.copyright {
+  margin-bottom: -80px;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.fa-copyright {
+  color: #ff4d4d;
+  font-size: 15px;
+}
+.footer hr {
+  margin-top: 10px;
+  background-color: #ccc;
+}
+.footer-image img {
+  width: 150px;
+}
+.footer .row .fa {
+  padding-right: 20px;
+  font-size: 15px;
+}

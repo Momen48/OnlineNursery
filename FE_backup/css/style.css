@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title-box {
+  background: #ff4d4d;
+  color: #fff;
+  width: 180px;
+  padding: 4px 10px;
+  height: 40px;
+  margin-bottom: 30px;
+  display: flex;
+}
+.title-box h2 {
+  font-size: 24px;
+}
+.title-box::after {
+  content: "";
+  border-top: 40px solid #ff4d4d;
+  border-right: 50px solid transparent;
+  position: absolute;
+  display: flex;
+  margin-top: -4px;
+  margin-left: 170px;
+}
+/*---------------On Sale product CSS----------------*/
+
+.title-box {
+  background: #2ecc71;
+  color: #fff;
+  width: 180px;
+  padding: 4px 10px;
+  height: 40px;
+  margin-bottom: 30px;
+  display: flex;
+}
+.title-box h2 {
+  font-size: 24px;
+}
+.title-box::after {
+  content: "";
+  border-top: 40px solid #2ecc71;
+  border-right: 50px solid transparent;
+  position: absolute;
+  display: flex;
+  margin-top: -4px;
+  margin-left: 170px;
+}
+
+/*-------------product-top CSS----------------*/
+.on-sale {
+  margin-top: 30px;
+}
+.product-top img {
+  width: 100%;
+}
+.overlay-right {
+  display: block;
+  opacity: 0;
+  position: absolute;
+  top: 10%;
+  margin-left: 0;
+  width: 70px;
+}
+.overlay-right .fa {
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+  height: 35px;
+  width: 35px;
+  font-size: 20px;
+  padding: 7px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.overlay-right .btn-secondary {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.product-top:hover .overlay-right {
+  opacity: 1;
+  margin-left: 5%;
+  transition: 0.5s;
+}
+
+/*--------------Product-bottom-CSS---------------*/
+
+.product-bottom .fa {
+  color: #ff4d4d;
+  font-size: 10px;
+}
+.product-bottom h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.product-bottom h5 {
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+.new-products {
+  margin: 50px 0;
+}
+
+/*..................*/
+
+.sub {
+  background-color: rgb(70, 63, 63);
+}
+
+.sub input {
+  height: 50px;
+  width: 50%;
+  color: black;
+  outline: none;
+  padding: 10px;
+  border: black;
+}
+
+
+
+/* font awesome icons */
+.fa {
+  font-size: 32px;
+}
+
+/*..Parallex CSS..*/
+
+.parallex {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/parallex.jpg) no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+}
+.parallex h1 {
+  font-size: 55px;
+  font-weight: 700;
+}
+
+.parallex p {
+  font-size: 22px;
+}
+
+.btn2 {
+  height: 40px;
+  width: 110px;
+  background: transparent;
+  border: 2px solid white;
+  color: whitesmoke;
+  outline: none;
+  border-radius: 4px;
+}
+
+.btn2:hover {
+  background-color: white;
+  color: yellowgreen;
+  transition: 0.3s;
+  border: none;
+}
+
+.btn3 {
+  height: 40px;
+  width: 110px;
+  background: white;
+  border: 2px solid white;
+  color: yellowgreen;
+  outline: none;
+  border-radius: 4px;
+}
+.btn3:hover {
+  background-color: yellowgreen;
+  color: white;
+  transition: 0.3s;
+  border: none;
+}
+
+/*--------------footer---------------*/
+.footer {
+  margin-top: 50px;
+  background: #000;
+  color: #fff;
+}
+.footer h1 {
+  font-size: 15px;
+  margin: 25px 0;
+}
+.footer p {
+  font-size: 12px;
+}
+.copyright {
+  margin-bottom: -80px;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.fa-copyright {
+  color: #ff4d4d;
+  font-size: 15px;
+}
+.footer hr {
+  margin-top: 10px;
+  background-color: #ccc;
+}
+.footer-image img {
+  width: 150px;
+}
+.footer .row .fa {
+  padding-right: 20px;
+  font-size: 15px;
+}
